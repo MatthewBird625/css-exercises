@@ -13,8 +13,8 @@ img {
 
 button {
   font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
+  border: black;
+  border-radius: 32px;
   background: #eee;
 }
 
@@ -25,3 +25,56 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul{
+  list-style-type: none;
+}
+
+body{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header, .footer{
+  display: flex;
+  
+}
+.footer{
+  margin-top: auto;
+  background-color: rgba(238, 236, 236, 0.897);
+  bottom: 0;
+}
+
+.left-links, .right-links{
+  display: flex;
+  gap: 20px;
+  padding:10px;
+
+ 
+}
+.left-links{
+  margin-right: auto;
+  margin-left: 0;
+}
+
+a{
+  color: grey;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button{
+padding: 8px 16px;
+
+}
+
