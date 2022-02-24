@@ -23,7 +23,7 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);  height: 100%;
   border-radius: 4px;
 }
 
@@ -34,17 +34,7 @@ body {
   flex-direction: column;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  padding: 0 16px;
-  font-size: 32px;
-  font-weight: 900;
-}
-
-.body {
-  flex: 1;
-  display: flex;
+.header {  height: 100%;
 }
 
 .sidebar {
